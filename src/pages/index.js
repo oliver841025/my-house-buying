@@ -1,7 +1,10 @@
+import Information from '@/components/information/information';
+
 export default function Home() {
   return (
     <>
-      <div>home</div>
+      <div>images</div>
+      <Information />
     </>
   );
 }
