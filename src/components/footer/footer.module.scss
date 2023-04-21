@@ -1,0 +1,19 @@
+.wrapper {
+  border: 1px solid red;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  margin-left: 75px;
+}
+
+.agree {
+  background-color: #f9f8f7;
+  border-radius: 3px;
+  padding: 3px 12px 3px 12px;
+}
