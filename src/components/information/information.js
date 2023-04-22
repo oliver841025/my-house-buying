@@ -8,7 +8,7 @@ import classes from './information.module.scss';
 
 const Information = () => {
   return (
-    <>
+    <div className={classes.basic_wrapper}>
       <div className={classes.wrapper}>
         <Detail />
         <Location />
@@ -42,7 +42,7 @@ const Information = () => {
 
       <div>仍在考慮？先加入願望清單，或分享給至親好友</div>
       <div className={classes.selection}>下一步</div>
-    </>
+    </div>
   );
 };
 
