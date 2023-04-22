@@ -6,56 +6,6 @@
   }
 }
 
-.bottom_section {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 70px;
-    width: 70px;
-    border-radius: 10px;
-    border: 1px solid #e5e5e5;
-  }
-}
-
-.middle_section {
-  display: flex;
-  align-items: center;
-  justify-content: baseline;
-
-  div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 30px;
-    width: 60px;
-    border-radius: 5px;
-    border: 1px solid #c4c4c4;
-    margin-right: 20px;
-  }
-}
-
-.top_section {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-
-  div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .number {
-    font-size: 24px;
-  }
-}
-
 .detail_button {
   display: flex;
   align-items: center;

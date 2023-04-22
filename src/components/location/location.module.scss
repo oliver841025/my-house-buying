@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    border: 1px solid #c4c4c4;
+    margin-right: 20px;
+  }
+}
