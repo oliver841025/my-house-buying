@@ -1,6 +1,7 @@
 import Building from '../building/building';
 import Detail from '../detail/detail';
 import Floor from '../floor/floor';
+import Household from '../household/household';
 import Location from '../location/location';
 import classes from './information.module.scss';
 
@@ -14,10 +15,19 @@ const Information = () => {
         <div className={classes.detail_button}>+ 詳細</div>
       </div>
 
-      <div>
+      <div className={classes.wrapper}>
         images
         <Location />
         <Floor />
+        <div className={classes.detail_button}>+ 詳細</div>
+      </div>
+
+      <div className={classes.wrapper}>
+        images
+        <Detail />
+        <Location />
+        <Household />
+        <div className={classes.detail_button}>+ 詳細</div>
       </div>
     </>
   );
