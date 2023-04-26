@@ -1,11 +1,17 @@
 .image_wrapper {
   display: flex;
   overflow-x: auto;
-  margin-top: 50px;
+  margin-top: 15px;
 }
 
 .image {
   width: 380px;
   height: 360px;
   margin-right: 10px;
+}
+
+.logo {
+  transform: scale(0.7);
+  position: relative;
+  top: 10px;
 }
