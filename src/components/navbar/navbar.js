@@ -1,4 +1,6 @@
 import classes from './navbar.module.scss';
+import Image from 'next/image';
+import avatar from '../../../public/avatar.png';
 
 const Navbar = () => {
   return (
@@ -8,7 +10,7 @@ const Navbar = () => {
       </section>
       <section className={classes.right_block}>
         <div>建案詳情</div>
-        <div>avatar</div>
+        <Image src={avatar} alt="avatar" className={classes.image}/>
       </section>
     </div>
   );
