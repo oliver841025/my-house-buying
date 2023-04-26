@@ -16,6 +16,7 @@ import ground_2 from '../../../public/ground_2.png';
 import ground_3 from '../../../public/ground_3.png';
 import ground_4 from '../../../public/ground_4.png';
 import ground_5 from '../../../public/ground_5.png';
+import DetailHousehold from '../detail_household/detail_household';
 
 const Information = () => {
   return (
@@ -67,7 +68,7 @@ const Information = () => {
           <Image src={ground_4} alt="ground_4" className={classes.image} />
           <Image src={ground_5} alt="ground_5" className={classes.image} />
         </div>
-        <Detail />
+        <DetailHousehold />
         <Location />
         <Household />
         <p className={classes.detail_button}>

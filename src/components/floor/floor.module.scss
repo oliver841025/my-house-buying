@@ -2,7 +2,26 @@
   display: flex;
   flex-wrap: wrap;
 
-  div {
+  .disabled {
+    flex: 1 0 16%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    border: 1px solid #e5e5e5;
+    background-color: #434343;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+
+    span {
+      margin-top: 10px;
+    }
+  }
+
+  p {
     flex: 1 0 16%;
     display: flex;
     align-items: center;
@@ -12,6 +31,16 @@
     margin-right: 10px;
     margin-top: 15px;
     border-radius: 10px;
-    border: 1px solid #e5e5e5;
+    border: 1px solid #c4c4c4;
+    font-size: 32px;
+    font-weight: 400;
+
+    span {
+      margin-top: 10px;
+    }
+  }
+
+  p:hover {
+    border: 2px solid #0097ff;
   }
 }
