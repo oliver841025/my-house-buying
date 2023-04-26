@@ -1,20 +1,38 @@
 .wrapper {
   // border: 1px solid red;
-  font-size: 12px;
   font-weight: 400;
   letter-spacing: 1px;
   height: 70px;
   display: flex;
   align-items: center;
+  justify-content: flex-start;
+  padding-left: 30px;
 
   position: fixed;
   bottom: 0px;
   background: rgb(251, 251, 251);
   opacity: 0.8;
+  width: 100vw;
+
+  div {
+    margin-right: 30px;
+  }
 }
 
 .content {
   margin-left: 75px;
+}
+
+.small_content {
+  display: flex;
+  flex-direction: column;
+  p {
+    font-size: 14px;
+  }
+
+  span {
+    font-size: 6px;
+  }
 }
 
 .agree {
