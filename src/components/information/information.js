@@ -54,7 +54,9 @@ const Information = () => {
         </div>
         <Location />
         <Floor />
-        <div className={classes.detail_button}>+ 詳細</div>
+        <p className={classes.detail_button}>
+          <span>+</span> 詳細
+        </p>
       </div>
 
       <div className={classes.wrapper}>
@@ -68,7 +70,9 @@ const Information = () => {
         <Detail />
         <Location />
         <Household />
-        <div className={classes.detail_button}>+ 詳細</div>
+        <p className={classes.detail_button}>
+          <span>+</span> 詳細
+        </p>
       </div>
 
       <div className={classes.wrapper}>

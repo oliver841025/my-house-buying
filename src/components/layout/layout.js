@@ -1,6 +1,11 @@
 import Head from 'next/head';
 import Footer from '../footer/footer';
 import Navbar from '../navbar/navbar';
+import classes from './layout.module.scss';
+import Image from 'next/image';
+
+import btn_LINE from '../../../public/btn_LINE.png';
+import btn_messenger from '../../../public/btn_messenger.png';
 
 const Layout = ({ children }) => {
   return (
@@ -13,6 +18,12 @@ const Layout = ({ children }) => {
       <main>
         <Navbar />
         {children}
+        <Image src={btn_LINE} alt="btn_LINE" className={classes.line} />
+        <Image
+          src={btn_messenger}
+          alt="btn_messenger"
+          className={classes.messenger}
+        />
         <Footer />
       </main>
     </>
