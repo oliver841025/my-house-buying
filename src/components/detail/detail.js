@@ -5,16 +5,22 @@ const Detail = () => {
     <>
       <section className={classes.wrapper}>
         <div>
-          <div className={classes.number}>2600萬</div>
-          <div>總價起</div>
+          <p className={classes.number}>
+            2600<span>萬</span>
+          </p>
+          <div className={classes.subscription}>總價起</div>
         </div>
         <div>
-          <div className={classes.number}>26-52坪</div>
-          <div>坪數區間</div>
+          <p className={classes.number}>
+            26-52<span>坪</span>
+          </p>
+          <div className={classes.subscription}>坪數區間</div>
         </div>
         <div>
-          <div className={classes.number}>18樓</div>
-          <div>樓層</div>
+          <p className={classes.number}>
+            18<span>樓</span>
+          </p>
+          <div className={classes.subscription}>樓層</div>
         </div>
       </section>
     </>
