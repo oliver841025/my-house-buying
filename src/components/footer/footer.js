@@ -13,7 +13,7 @@ const Footer = () => {
         <p>
           NT$12,609,900<span>/目前總價</span>
         </p>
-        <p>
+        <p className={classes.monthly_pay}>
           NT$31,609<span>/最低月付</span>
         </p>
       </div>
