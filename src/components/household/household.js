@@ -4,19 +4,27 @@ const Household = () => {
   return (
     <section className={classes.wrapper}>
       <div className={classes.selection}>
-        <div>A戶</div>
+        <p>
+          A<span>戶</span>
+        </p>
         <div>NT$8,170,000</div>
       </div>
       <div className={classes.selection}>
-        <div>A戶</div>
+        <p>
+          B<span>戶</span>
+        </p>
         <div>NT$8,170,000</div>
       </div>
       <div className={classes.selection}>
-        <div>A戶</div>
+        <p>
+          C<span>戶</span>
+        </p>
         <div>NT$8,170,000</div>
       </div>
       <div className={classes.selection}>
-        <div>A戶</div>
+        <p>
+          D<span>戶</span>
+        </p>
         <div>NT$8,170,000</div>
       </div>
     </section>

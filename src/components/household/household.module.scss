@@ -10,5 +10,14 @@
     padding-left: 40px;
     padding-right: 40px;
     margin-bottom: 10px;
+
+    p {
+      font-size: 32px;
+      font-weight: 400;
+    }
+  }
+
+  .selection:hover {
+    border: 2px solid #0097ff;
   }
 }
