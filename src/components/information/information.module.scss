@@ -39,3 +39,15 @@
   left: 50%;
   transform: translateX(-50%);
 }
+
+.image_wrapper {
+  display: flex;
+  overflow-x: auto;
+  margin-top: 50px;
+}
+
+.image {
+  width: 380px;
+  height: 360px;
+  margin-right: 10px;
+}
