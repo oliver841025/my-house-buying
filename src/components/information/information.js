@@ -24,7 +24,9 @@ const Information = () => {
         <Detail />
         <Location />
         <Building />
-        <div className={classes.detail_button}>+ 詳細</div>
+        <p className={classes.detail_button}>
+          <span>+</span> 詳細
+        </p>
       </div>
 
       <div className={classes.wrapper}>
