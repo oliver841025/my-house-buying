@@ -4,11 +4,21 @@ const Building = () => {
   return (
     <>
       <section className={classes.wrapper}>
-        <div>A棟</div>
-        <div>B棟</div>
-        <div>C棟</div>
-        <div>D棟</div>
-        <div>E棟</div>
+        <p>
+          A<span>棟</span>
+        </p>
+        <p>
+          B<span>棟</span>
+        </p>
+        <p>
+          C<span>棟</span>
+        </p>
+        <p>
+          D<span>棟</span>
+        </p>
+        <span className={classes.disabled}>
+          E<span>棟</span>
+        </span>
       </section>
     </>
   );

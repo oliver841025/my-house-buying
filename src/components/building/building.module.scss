@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
 
-  div {
+  p {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,5 +11,30 @@
     width: 70px;
     border-radius: 10px;
     border: 1px solid #e5e5e5;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+
+    span {
+      margin-top: 10px;
+    }
+  }
+
+  p:hover {
+    border: 2px solid #0097ff;
+  }
+
+  .disabled {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    border: 1px solid #e5e5e5;
+    background-color: #434343;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
   }
 }
