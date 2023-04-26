@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
           alt="btn_messenger"
           className={classes.messenger}
         />
-        <Footer />
+        {/* <Footer /> */}
       </main>
     </>
   );

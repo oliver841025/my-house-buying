@@ -13,7 +13,8 @@
   padding-right: 15px;
 }
 
-.selection {
+.selection,
+.next_btn {
   border: 1px solid #c4c4c4;
   border-radius: 35px;
   // width: 390px;
@@ -24,6 +25,16 @@
   padding-left: 40px;
   padding-right: 40px;
   margin-bottom: 10px;
+}
+
+.selection:hover {
+  border: 2px solid #0097ff;
+}
+
+.next_btn:hover {
+  background-color: #0097ff;
+  border: none;
+  color: white;
 }
 
 .detail_button {

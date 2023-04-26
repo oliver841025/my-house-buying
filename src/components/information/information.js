@@ -87,7 +87,7 @@ const Information = () => {
       </div>
 
       <div>仍在考慮？先加入願望清單，或分享給至親好友</div>
-      <div className={classes.selection}>下一步</div>
+      <div className={classes.next_btn}>下一步</div>
     </div>
   );
 };
