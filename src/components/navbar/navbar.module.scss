@@ -23,8 +23,22 @@
   align-items: center;
   justify-content: space-between;
   width: 120px;
+  margin-right: 10px;
 }
 
-.image {
-  transform: scale(0.6);
+.avatar {
+  transform: scale(0.8);
+  cursor: pointer;
+}
+
+.detail_btn {
+  border-radius: 30px;
+  width: 75px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: black;
+  cursor: pointer;
 }

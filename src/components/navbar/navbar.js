@@ -10,8 +10,8 @@ const Navbar = () => {
         {/* <Image src={icon_logo} alt="logo" className={classes.logo} /> */}
       </section>
       <section className={classes.right_block}>
-        <div>建案詳情</div>
-        <Image src={avatar} alt="avatar" className={classes.image} />
+        <div className={classes.detail_btn}>建案詳情</div>
+        <Image src={avatar} alt="avatar" className={classes.avatar} />
       </section>
     </div>
   );
