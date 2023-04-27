@@ -39,7 +39,7 @@ const Information = () => {
       </div>
 
       <div className={classes.wrapper}>
-        {size.width < 1366 && (
+        {size.width < 1024 && (
           <div className={classes.image_wrapper}>
             <Image
               src={structure_1}
@@ -71,7 +71,7 @@ const Information = () => {
       </div>
 
       <div className={classes.wrapper}>
-        {size.width < 1366 && (
+        {size.width < 1024 && (
           <div className={classes.image_wrapper}>
             <Image src={ground_1} alt="ground_1" className={classes.image} />
             <Image src={ground_2} alt="ground_2" className={classes.image} />

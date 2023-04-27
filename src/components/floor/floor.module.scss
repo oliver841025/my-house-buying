@@ -44,3 +44,25 @@
     border: 2px solid #0097ff;
   }
 }
+
+@media screen and (min-width: 1023px) and (max-width: 1919px) {
+  .wrapper {
+    p {
+      height: 55px;
+      width: 55px;
+      font-size: 20px;
+      span {
+        margin-top: 4px;
+      }
+    }
+
+    .disabled {
+      height: 55px;
+      width: 55px;
+      font-size: 20px;
+      span {
+        margin-top: 4px;
+      }
+    }
+  }
+}
