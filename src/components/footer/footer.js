@@ -8,7 +8,7 @@ const Footer = () => {
         此網站儲存儲如cookie等數據，以啟用網站基本功能與行銷，個人化及分析功能。
         繼續瀏覽本網站，即表示您同意我們的聲明。 Cookie 政策
       </div> */}
-      <div>+</div>
+      <div className={classes.arrow}>𐌡</div>
       <div className={classes.small_content}>
         <p>
           NT$12,609,900<span>/目前總價</span>
