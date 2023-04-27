@@ -11,7 +11,7 @@
   position: fixed;
   bottom: 0px;
   background: rgb(251, 251, 251);
-  opacity: 0.8;
+  opacity: 1;
   width: 100vw;
 
   div {
@@ -21,6 +21,7 @@
 
 .content {
   margin-left: 75px;
+  background: rgb(255, 255, 255);
 }
 
 .small_content {
@@ -36,7 +37,8 @@
 }
 
 .agree {
-  background-color: #f9f8f7;
+  background-color: #f5f5f5;
+  font-weight: 500;
   border-radius: 3px;
   padding: 3px 12px 3px 12px;
 }
@@ -52,13 +54,23 @@
 
 @media screen and (min-width: 1023px) and (max-width: 1919px) {
   .wrapper {
-    width: 480px;
+    opacity: 0.8;
+    width: 520px;
     height: 45px;
     border-radius: 20px 20px 0 0;
-    left: 9%;
+    left: 8%;
+    display: flex;
+    justify-content: space-evenly;
+
     div {
       flex-direction: inherit;
       font-size: 12px;
     }
+  }
+
+  .small_content {
+    width: 360px;
+    display: flex;
+    justify-content: space-between;
   }
 }
