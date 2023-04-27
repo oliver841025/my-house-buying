@@ -88,3 +88,21 @@
 .share_desc {
   margin-bottom: 30px;
 }
+
+.share_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heart,
+.airplane {
+  margin-bottom: 5px;
+  transform: scale(0.8);
+}
+
+.airplane {
+  margin-right: 15px;
+}
+
+.heart {
+}

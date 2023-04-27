@@ -16,6 +16,8 @@ import ground_2 from '../../../public/ground_2.png';
 import ground_3 from '../../../public/ground_3.png';
 import ground_4 from '../../../public/ground_4.png';
 import ground_5 from '../../../public/ground_5.png';
+import heart from '../../../public/heart.png';
+import airplane from '../../../public/airplane.png';
 import DetailHousehold from '../detail_household/detail_household';
 import LocationRoom from '../location_room/location_room';
 
@@ -88,8 +90,12 @@ const Information = () => {
         <div className={classes.selection}>新增設計風格 +</div>
       </div>
 
-      <div className={classes.share_desc}>
-        仍在考慮？先加入願望清單，或分享給至親好友
+      <div className={classes.share_wrapper}>
+        <div className={classes.share_desc}>
+          仍在考慮？先加入願望清單，或分享給至親好友
+        </div>
+        <Image src={heart} alt="heart" className={classes.heart} />
+        <Image src={airplane} alt="airplane" className={classes.airplane} />
       </div>
       <div className={classes.next_btn}>下一步</div>
     </div>
