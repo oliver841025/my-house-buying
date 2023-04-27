@@ -1,7 +1,9 @@
-.image_wrapper {
-  display: flex;
-  overflow-x: auto;
-  margin-top: 15px;
+@media screen and (max-width: 429px) {
+  .image_wrapper {
+    display: flex;
+    overflow-x: auto;
+    margin-top: 15px;
+  }
 }
 
 .image {
@@ -14,4 +16,26 @@
   transform: scale(0.8);
   position: relative;
   top: 10px;
+}
+
+.basic_wrapper {
+  /* display: flex; */
+}
+
+@media screen and (min-width: 1376px) {
+  .basic_wrapper {
+    display: flex;
+  }
+
+  .image_wrapper {
+    margin-top: 15px;
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .image {
+    width: 70vw;
+    height: 95vh;
+    margin-right: 0px;
+  }
 }

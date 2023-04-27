@@ -12,14 +12,16 @@ export default function Home() {
   return (
     <>
       <Image src={icon_logo} alt="logo" className={classes.logo} />
-      <div className={classes.image_wrapper}>
-        <Image src={house_1} alt="house_1" className={classes.image} />
-        <Image src={house_2} alt="house_2" className={classes.image} />
-        <Image src={house_3} alt="house_3" className={classes.image} />
-        <Image src={house_4} alt="house_4" className={classes.image} />
-        <Image src={house_5} alt="house_5" className={classes.image} />
+      <div className={classes.basic_wrapper}>
+        <div className={classes.image_wrapper}>
+          <Image src={house_1} alt="house_1" className={classes.image} />
+          <Image src={house_2} alt="house_2" className={classes.image} />
+          <Image src={house_3} alt="house_3" className={classes.image} />
+          <Image src={house_4} alt="house_4" className={classes.image} />
+          <Image src={house_5} alt="house_5" className={classes.image} />
+        </div>
+        <Information />
       </div>
-      <Information />
     </>
   );
 }

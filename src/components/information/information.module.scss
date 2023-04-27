@@ -103,3 +103,14 @@
 .airplane {
   margin-right: 15px;
 }
+
+@media screen and (min-width: 1376px) {
+  .basic_wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 220px;
+    width: 140vw;
+    height: 95vh;
+    overflow-y: auto;
+  }
+}
