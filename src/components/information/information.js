@@ -20,8 +20,13 @@ import heart from '../../../public/heart.png';
 import airplane from '../../../public/airplane.png';
 import DetailHousehold from '../detail_household/detail_household';
 import LocationRoom from '../location_room/location_room';
+import { useState } from 'react';
+import { useEffect } from 'react';
+import useWindowSize from '@/hooks/useWindowSize';
 
 const Information = () => {
+  const size = useWindowSize();
+
   return (
     <div className={classes.basic_wrapper}>
       <div className={classes.wrapper}>
@@ -34,28 +39,30 @@ const Information = () => {
       </div>
 
       <div className={classes.wrapper}>
-        <div className={classes.image_wrapper}>
-          <Image
-            src={structure_1}
-            alt="structure_1"
-            className={classes.image}
-          />
-          <Image
-            src={structure_2}
-            alt="structure_2"
-            className={classes.image}
-          />
-          <Image
-            src={structure_3}
-            alt="structure_3"
-            className={classes.image}
-          />
-          <Image
-            src={structure_4}
-            alt="structure_4"
-            className={classes.image}
-          />
-        </div>
+        {size.width < 1366 && (
+          <div className={classes.image_wrapper}>
+            <Image
+              src={structure_1}
+              alt="structure_1"
+              className={classes.image}
+            />
+            <Image
+              src={structure_2}
+              alt="structure_2"
+              className={classes.image}
+            />
+            <Image
+              src={structure_3}
+              alt="structure_3"
+              className={classes.image}
+            />
+            <Image
+              src={structure_4}
+              alt="structure_4"
+              className={classes.image}
+            />
+          </div>
+        )}
         <Location />
         <Floor />
         <p className={classes.detail_button}>
