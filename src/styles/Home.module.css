@@ -28,14 +28,14 @@
   }
 
   .image_wrapper {
-    margin-top: 15px;
+    margin-top: -35px;
     display: flex;
     overflow-x: auto;
   }
 
   .image {
     width: 70vw;
-    height: 95vh;
+    height: 100vh;
     margin-right: 0px;
   }
 }

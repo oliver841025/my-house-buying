@@ -71,13 +71,15 @@ const Information = () => {
       </div>
 
       <div className={classes.wrapper}>
-        <div className={classes.image_wrapper}>
-          <Image src={ground_1} alt="ground_1" className={classes.image} />
-          <Image src={ground_2} alt="ground_2" className={classes.image} />
-          <Image src={ground_3} alt="ground_3" className={classes.image} />
-          <Image src={ground_4} alt="ground_4" className={classes.image} />
-          <Image src={ground_5} alt="ground_5" className={classes.image} />
-        </div>
+        {size.width < 1366 && (
+          <div className={classes.image_wrapper}>
+            <Image src={ground_1} alt="ground_1" className={classes.image} />
+            <Image src={ground_2} alt="ground_2" className={classes.image} />
+            <Image src={ground_3} alt="ground_3" className={classes.image} />
+            <Image src={ground_4} alt="ground_4" className={classes.image} />
+            <Image src={ground_5} alt="ground_5" className={classes.image} />
+          </div>
+        )}
         <DetailHousehold />
         <LocationRoom />
         <Household />
