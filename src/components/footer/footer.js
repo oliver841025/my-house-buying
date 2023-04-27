@@ -13,7 +13,7 @@ const Footer = () => {
           繼續瀏覽本網站，即表示您同意我們的聲明。 Cookie 政策
         </div>
       )}
-      {size.width <= 1919 && size.width > 1023 && (
+      {size.width <= 1919 && (
         <>
           <div className={classes.arrow}>𐌡</div>
           <div className={classes.small_content}>
