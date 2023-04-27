@@ -115,3 +115,11 @@
     padding-bottom: 170px;
   }
 }
+
+@media screen and (min-width: 1919px) {
+  .basic_wrapper {
+    width: 113vw;
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+}
